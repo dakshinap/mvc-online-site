@@ -1,0 +1,33 @@
+/*   Pujari Dakshina 
+ * Student Account:  jadrn031
+ * CS645, Spring 2018
+ * Project #2
+*/
+
+
+.main_fragment {
+    float: left;
+     
+}
+
+#left_column{
+    width: 20%;
+    border-style: double;
+    border-width:  1px;
+    
+   padding-left: 20px;
+  
+    
+}
+
+#right_column{
+    width: 80%;
+    border-left-width:  1px;
+    border-left-style: solid;
+    
+}
+.btn{
+	background-color: #F08080;
+    height:40px;
+    width:100px;
+}  

@@ -1,0 +1,234 @@
+/*   Pujari Dakshina 
+ * Student Account:  jadrn031
+ * CS645, Spring 2018
+ * Project #2
+*/
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+html{
+	 background-image: url(../images/bg.jpg);
+}
+
+/* Caption text */
+.text {
+  
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type=submit] {
+	border-radius: 40px;
+    background-color: #F08080; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#Check_out {
+	border-radius: 40px;
+    background-color: #F08080; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.delete_item {
+	border-radius: 40px;
+    background-color: #F08080; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#crt{
+    float: right;
+    padding: 10px 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    margin-top: 5px
+}
+
+#srch{
+  width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#srchBtn{
+    margin: 8px 0;
+    display: block;
+    height: 39px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#address_submit{
+	background-color: #F08080; 
+	 margin: 8px 0;
+   border-radius: 40px;
+    height: 39px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+	
+}
+#cancel{
+	background-color: #F08080; 
+	 margin: 8px 0;
+   border-radius: 40px;
+    height: 39px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+li a:hover {
+    background-color: #2F8EE1!important;
+}
+
+/* Fading animation */
+.fade {
+   height: 300px;
+  width: 100%;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#crt:hover{
+    cursor:pointer;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.error{
+background-color: red;
+}
+
+
+label{
+display: table-cell;
+}
+p.design{
+display: table-row;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.inlineTable {
+             float:left;
+             margin-left: 10px;
+        }
+        
+ .button1 {
+    background-color: #F08080; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+}
